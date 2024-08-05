@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: #ffffff; 
+    height: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000
+}
+
+
+.logo img {
+    height: 45px; 
+}
+
+
+.list ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    margin: 0 15px;
+}
+
+.list a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Archivo", sans-serif;
+    font-weight: 800;
+}
+
+.userBox {
+    display: flex;
+    align-items: center;
+}
+
+.userBox .icon{
+    font-size: 0.8rem;
+    margin-left: 15px; 
+    color: #333;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.userBox .iconCart{ 
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.userBox .number{
+    font-size: 0.9rem;
+}
+
+.list a.active {
+    color: #ffffff;
+    background-color: #008139;
+    border-radius: 5px;
+    padding: 4px;
+}

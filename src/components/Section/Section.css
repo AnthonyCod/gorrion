@@ -1,0 +1,12 @@
+/* src/App.css */
+main {
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+main img {
+    max-width: 100%;       
+}
+
+

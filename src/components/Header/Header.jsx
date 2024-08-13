@@ -40,7 +40,7 @@ export default function Header() {
 
         <div className="search-container">
             <input className='search-bar' type="text" placeholder='Busque aqui...' />
-            <FaSearch className='icon'/>
+            <FaSearch className='iconSearch'/>
         </div>
         
         <div className="contact">

@@ -1,0 +1,88 @@
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px; 
+    text-align: center;
+  }
+  
+  .grid-item-image {
+    width: 100%; /* Ajusta la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 2px; /* Opcional, para bordes redondeados en la imagen */
+  }
+  
+  .grid-item-title {
+    margin: 10px 0;
+    font-size: 1.2rem; /* Ajusta el tamaño del título */
+    font-weight: 800;
+  }
+  
+  .grid-item-paragraph {
+    font-size: 1rem; /* Ajusta el tamaño del párrafo */
+    color: #333; /* Color del texto del párrafo */
+  }
+
+  .cart-icon{
+    font-size: 3rem;
+  }
+  
+  .grid-item {
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px; /* Opcional */
+    position: relative; /* Para posicionar elementos superpuestos */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 200px; /* Ajusta la altura según sea necesario */
+  }
+  
+  .grid-item-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+    transition: opacity 0.3s ease; /* Transición para el desvanecimiento */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(151, 151, 151, 0.8); /* Fondo oscuro con opacidad */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transición para el efecto de desvanecimiento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px; /* Tamaño del icono del carrito */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transición para el desvanecimiento del texto */
+  }
+  
+  .grid-item:hover .grid-item-image {
+    opacity: 5; /* Imagen más tenue al pasar el cursor */
+  }
+  
+  .grid-item:hover .overlay {
+    opacity: 1; /* Muestra el overlay al pasar el cursor */
+  }
+  
+  .grid-item:hover .text-overlay {
+    opacity: 1; /* Muestra el texto al pasar el cursor */
+  }
+  

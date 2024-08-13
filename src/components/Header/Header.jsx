@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Header.css'
 import { FaRegUser } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa"
 import { IoCartOutline } from "react-icons/io5";
 import logo from '../../img/logo.png'
 
@@ -36,11 +37,21 @@ export default function Header() {
                 ))}
             </ul>
         </div>
-        <div className="userBox">
-            <FaRegUser className='icon'/>
-            <IoCartOutline className='iconCart'/>
-            <div className='number'>0</div>
+
+        <div className="search-container">
+            <input className='search-bar' type="text" placeholder='Busque aqui...' />
+            <FaSearch className='icon'/>
         </div>
+        
+        <div className="contact">
+            <h4 className='title'>Delivery:</h4>
+            <h4 className='number'><a href="">(01) 645 4000</a></h4>
+        </div>
+
+        <div className="cta">
+            <button>¡Pide Online!</button>
+        </div>
+
     </header>
   )
 }

@@ -1,0 +1,68 @@
+/* Define el contenedor de la cuadrícula */
+.grid-container-footer {
+    padding-top: 80px;
+    background-color: #008139 ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    gap: 10px; /* Espacio entre los elementos */
+    padding: 10px; /* Espacio dentro del contenedor */
+  }
+  
+  /* Estilo para cada elemento de la cuadrícula */
+  .grid-items {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: white;
+    font-family: "Archivo", sans-serif;
+    font-size: 0.8rem;
+  }
+  
+  .grid-items .logo{
+    width: 8rem;
+    padding-bottom: 20px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .grid-items p{
+    letter-spacing: -0.5px;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .grid-items h3{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+
+  .grid-items a{
+    padding: 10px 0px;
+    font-size: 0.9rem;
+  }
+
+  .grid-items .pagos{
+    display: flex;
+    align-items: center;
+  }
+
+  .pagos img{
+    width: 3rem;
+    padding: 0px 0.2rem; 
+  }
+
+  .icons{
+    display: flex;
+    align-items: center;
+  }
+
+  .icons i{
+    font-size: 1.5rem;
+    padding: 5px 12px;
+    text-align: center;
+  }
+
+  

@@ -1,10 +1,10 @@
 import React from 'react'
-import '../../components/Footer/Footer.css'
-import logobn from '../../img/logobn.png'
-import visa from '../../img/visa.svg'
-import mastercard from '../../img/mastercard.svg'
-import american from '../../img/american.svg'
-import paypal from '../../img/paypal.svg'
+import './Footer.css'
+import logobn from '../../../img/logobn.png'
+import visa from '../../../img/visa.svg'
+import mastercard from '../../../img/mastercard.svg'
+import american from '../../../img/american.svg'
+import paypal from '../../../img/paypal.svg'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Footer() {
@@ -12,7 +12,7 @@ export default function Footer() {
     <div className="grid-container-footer">
       <div className="grid-items">
         <img className='logo' src={logobn}/>
-        <p>"En Pollería Gorrión, disfruta del sabor único de nuestro pollo fresco y jugoso, cocinado con el cariño de una tradición familiar. ¡Ven y prueba el auténtico placer del pollo a la parrilla!"</p>
+        <p>"En Pollería Gorrión, disfruta del sabor único de nuestro pollo fresco y jugoso, cocinado con el cariño de una tradición familiar. ¡Ven y prueba el auténtico placer del pollo a la brasa!"</p>
         </div>
       <div className="grid-items">
         <h3>MAPA DEL SITIO</h3>

@@ -1,19 +1,20 @@
 import './App.css';
-import Header from './components/Header/Header'
-import Section from './components/Section/Section';
-import Options from './components/Options/Options';
-import WebCart from './components/WebCart/WebCart';
-import Footer from './components/Footer/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Inicio from './pages/Inicio';
+import Promociones from './pages/Promociones';
+import Locales from './pages/Locales';
+import Reservas from './pages/Reservas';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Section/>
-      <Options/>
-      <WebCart/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/promociones" element={<Promociones />} />
+          <Route path="/locales" element={<Locales />} />
+          <Route path="/reservas" element={<Reservas />} />
+        </Routes>
+    </BrowserRouter>
   );
 }
 

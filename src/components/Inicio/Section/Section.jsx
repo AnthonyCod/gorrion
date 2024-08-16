@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Gorrion from '../../img/gorrion.jpg';
-import Circo from '../../img/circo.jpg';
-import diaPollo from '../../img/diaPollo.jpg';
+import Gorrion from '../../../img/gorrion.jpg';
+import Mostro from '../../../img/1.jpg';
+import Parrilla from '../../../img/2.jpg';
+import Ceviche from '../../../img/3.jpg';
 import './Section.css';
+
 
 export default function Section() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,8 +13,9 @@ export default function Section() {
   useEffect(() => {
     setImages([
       { id: 1, img: Gorrion },
-      { id: 2, img: Circo },
-      { id: 3, img: diaPollo }
+      { id: 2, img: Mostro },
+      { id: 3, img: Parrilla },
+      { id: 4, img: Ceviche }
     ]);
   }, []);
 

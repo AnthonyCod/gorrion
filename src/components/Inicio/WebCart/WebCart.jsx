@@ -1,12 +1,12 @@
 import React from 'react';
-import '../../components/WebCart/WebCart.css'
+import './WebCart.css'
 import Items from './Items';
-import inka from '../../img/inka.png';
-import pollo from '../../img/pollo.jpg';
-import grill from '../../img/grill.jpg';
-import parrilla from '../../img/parrilla.jpg';
-import piqueos from '../../img/piqueos.jpg';
-import ensalada from '../../img/ensalada.jpg';
+import inka from '../../../img/inka.png';
+import pollo from '../../../img/pollo.jpg';
+import grill from '../../../img/grill.jpg';
+import parrilla from '../../../img/parrilla.jpg';
+import piqueos from '../../../img/piqueos.jpg';
+import ensalada from '../../../img/ensalada.jpg';
 
 export default function WebCart() {
   return (

@@ -1,0 +1,43 @@
+/* Local.css */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+  }
+  
+  .info-column, .map-column {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-column {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .info-column h3{
+    margin: 0;
+  }
+
+  .info-column h2{
+    padding-bottom: 1rem;
+  }
+  
+  .info{
+    background-color: #fff;
+        padding-top: 4rem;
+  }
+
+  .info-column button{
+    margin-top: 0.3rem;
+    background-color: #008139;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .info-column p {
+    margin-top: 5px;
+  }
+
+  

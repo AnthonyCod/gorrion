@@ -42,6 +42,8 @@
   .grid-items a{
     padding: 10px 0px;
     font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
   }
 
   .grid-items .pagos{
@@ -63,6 +65,7 @@
     font-size: 1.5rem;
     padding: 5px 12px;
     text-align: center;
+    color: white;
   }
 
   

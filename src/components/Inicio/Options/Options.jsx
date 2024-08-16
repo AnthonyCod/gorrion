@@ -1,11 +1,11 @@
 import React from 'react'
-import burguer from '../../img/burguer.jpeg';
-import pizza from '../../img/pizza.jpeg';
-import bebidas from '../../img/bebidas.jpeg';
+import burguer from '../../../img/burguer.jpeg';
+import pizza from '../../../img/pizza.jpeg';
+import bebidas from '../../../img/bebidas.jpeg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../../components/Options/Options.css';
+import './Options.css';
 
 export default function Options() {
 
@@ -13,32 +13,32 @@ export default function Options() {
         {
             id:1,
             img:burguer,
-            name:'HAMBURGUESA' 
+            name:'COMBOS PERSONALES' 
         },
         {
             id:2,
             img:pizza,
-            name:'PIZZA' 
+            name:'COMBOS PARA 2' 
         },
         {
             id:3,
             img:bebidas,
-            name:'BEBIDAS' 
+            name:'COMBOS FAMILIARES' 
         },
         {
-            id:1,
+            id:4,
             img:burguer,
-            name:'HAMBURGUESA' 
+            name:'COMBOS PATAS' 
         },
         {
-            id:2,
+            id:5,
             img:pizza,
-            name:'PIZZA' 
+            name:'PARA COMPARTIR' 
         },
         {
-            id:3,
+            id:6,
             img:bebidas,
-            name:'BEBIDAS' 
+            name:'PROMOCIONES' 
         },
     ];
     

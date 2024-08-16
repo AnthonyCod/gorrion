@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../components/WebCart/Items.css'
+import './Items.css'
 
 export default function Items({id,image,title,paragraph}) {
   return (

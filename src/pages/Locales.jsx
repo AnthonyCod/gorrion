@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Inicio/Header/Header'
 import Local from '../components/Inicio/Locales-API/Local'
-
+import Footer from '../components/Inicio//Footer/Footer'
 
 export default function Locales() {
   
@@ -11,6 +11,7 @@ export default function Locales() {
     <div>
         <Header/>
         <Local/>
+        <Footer/>
     </div>
   )
 }

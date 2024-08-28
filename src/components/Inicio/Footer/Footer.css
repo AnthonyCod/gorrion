@@ -16,6 +16,7 @@
     color: white;
     font-family: "Archivo", sans-serif;
     font-size: 0.8rem;
+    bottom: 0;
   }
   
   .grid-items .logo{

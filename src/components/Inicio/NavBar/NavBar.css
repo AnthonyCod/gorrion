@@ -1,0 +1,53 @@
+.div{
+    padding-top: 20px;
+}
+
+.navBarGeneral {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 0; 
+    gap: 40px;
+    border: 0.5px solid rgb(207, 207, 207);
+    border-radius: 25px;
+    width: 95%;
+    margin: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.navBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   cursor: pointer; 
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 10px;
+    flex-direction: column;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.navBarContainer.active {
+    box-shadow: 0 3px 8px #008139; 
+    border-radius: 10px; 
+  }
+.image {
+    width: 44px;
+    height: 44px;
+}
+
+.title {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 800;
+    color: black;
+}
+

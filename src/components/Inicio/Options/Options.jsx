@@ -1,7 +1,5 @@
 import React from 'react'
-import burguer from '../../../img/burguer.jpeg';
-import pizza from '../../../img/pizza.jpeg';
-import bebidas from '../../../img/bebidas.jpeg';
+import uno from '../../../img/uno.jpg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,34 +10,34 @@ export default function Options() {
     const data = [
         {
             id:1,
-            img:burguer,
+            img:uno,
             name:'COMBOS PERSONALES' 
         },
         {
             id:2,
-            img:pizza,
+            img:uno,
             name:'COMBOS PARA 2' 
         },
         {
             id:3,
-            img:bebidas,
+            img:uno,
             name:'COMBOS FAMILIARES' 
         },
         {
             id:4,
-            img:burguer,
+            img:uno,
             name:'COMBOS PATAS' 
         },
         {
             id:5,
-            img:pizza,
+            img:uno,
             name:'PARA COMPARTIR' 
         },
         {
             id:6,
-            img:bebidas,
+            img:uno,
             name:'PROMOCIONES' 
-        },
+        }
     ];
     
     const settings = {

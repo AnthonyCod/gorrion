@@ -4,6 +4,7 @@ import Inicio from './pages/Inicio';
 import Promociones from './pages/Promociones';
 import Locales from './pages/Locales';
 import Reservas from './pages/Reservas';
+import Login from './pages/Login'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/promociones" element={<Promociones />} />
           <Route path="/locales" element={<Locales />} />
           <Route path="/reservas" element={<Reservas />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
     </BrowserRouter>
   );

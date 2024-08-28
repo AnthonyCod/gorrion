@@ -56,7 +56,9 @@ export default function Header() {
             </div>
 
             <div className="cta">
-                <button>¡Pide Online!</button>
+                <Link to ="/login" className='cta'>
+                    <button>¡Pide Online!</button>
+                </Link>
             </div>
         </header>
     );

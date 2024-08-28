@@ -1,0 +1,117 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .login {
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .titleLogin {
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+    font-weight: 800;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 1rem;
+  }
+  
+  .registerLink {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .registerLink:hover {
+    text-decoration: underline;
+  }
+  
+  .inputGroup h3 {
+    text-align: start;
+    font-size: 0.8rem;
+  }
+
+  .groupContainer {
+    padding-top: 2px;
+  }
+
+  .boton {
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    background-color: #008139;
+    border-radius: 15px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .inputGroup {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttonColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.gridButton1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #0865ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.gridButton:hover {
+    background-color: #0056b3;
+}
+
+.passLink {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.passLink:hover {
+  text-decoration: underline;
+}
+
+.gridButton2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #c5221f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.gridButton:hover {
+  background-color: #0056b3;
+}

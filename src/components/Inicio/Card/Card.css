@@ -1,0 +1,74 @@
+.CardGeneral {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
+    gap: 26px;
+    padding: 16px;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  
+  .card img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .card h3 {
+    margin: 16px 0;
+    font-size: 1.5rem; 
+  }
+  
+  .column {
+    display: flex;  
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  
+  .title {
+    color: #008139;
+    text-align: center;
+  }
+
+
+  .description {
+    color: gray;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .column h4 {
+    margin: 0;
+    width: 50%;
+  }
+  
+  .card button {
+    padding: 10px;
+    background-color: #008139;
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  
+  .card button:hover {
+    background-color: none;
+  }
+
+  .price {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #008139;
+    padding-top: 20px;
+  }
+  

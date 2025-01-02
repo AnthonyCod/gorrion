@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gorrion/static/css/main.5317d4ce.css",
-    "main.js": "/gorrion/static/js/main.7e77afc5.js",
+    "main.js": "/gorrion/static/js/main.70ec76fc.js",
     "static/media/logo.png": "/gorrion/static/media/logo.00b8ee05e1e961b5f96d.png",
     "static/media/fa-solid-900.ttf": "/gorrion/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/gorrion.jpg": "/gorrion/static/media/gorrion.f838cae4b063f9d46e5f.jpg",
@@ -32,10 +32,10 @@
     "static/media/promocionesIcon.svg": "/gorrion/static/media/promocionesIcon.34a04bc3a6c378ee0e741542716d07c0.svg",
     "index.html": "/gorrion/index.html",
     "main.5317d4ce.css.map": "/gorrion/static/css/main.5317d4ce.css.map",
-    "main.7e77afc5.js.map": "/gorrion/static/js/main.7e77afc5.js.map"
+    "main.70ec76fc.js.map": "/gorrion/static/js/main.70ec76fc.js.map"
   },
   "entrypoints": [
     "static/css/main.5317d4ce.css",
-    "static/js/main.7e77afc5.js"
+    "static/js/main.70ec76fc.js"
   ]
 }

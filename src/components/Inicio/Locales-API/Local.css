@@ -1,22 +1,36 @@
 /* Local.css */
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 0.8fr 2fr;
     padding: 20px;
+    background-color: gray;
+  }
+
+  .info-section {
+    background-color: white;
+    padding: 3px;
+    border-radius: 25px;
+    max-width: 20rem;
+    min-width: 15rem;
+    margin: 5px auto;
   }
   
+  .container {
+    background-color: rgb(245, 241, 241);
+  }
+
   .info-column, .map-column {
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .info-column {
-    background-color: #f9f9f9;
+    background-color: none  ;
     text-align: center;
   }
 
   .info-column h3{
+    padding-top: 5px;
     margin: 0;
   }
 
@@ -24,9 +38,12 @@
     padding-bottom: 1rem;
   }
   
+  .info-section .subtitle {
+    font-weight: 500;
+  }
+
   .info{
-    background-color: #fff;
-        padding-top: 4rem;
+    padding-top: 4rem;
   }
 
   .info-column button{
@@ -40,4 +57,50 @@
     margin-top: 5px;
   }
 
-  
+  .texto {
+    display: none;
+  }
+
+@media screen and (max-width:1000px) {
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.info-column {
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.map-column {
+  display: none;
+}
+
+.texto {
+  display: block;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.texto h2{
+  font-size: 2rem;
+}
+
+.info-section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+}

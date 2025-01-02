@@ -1,12 +1,13 @@
 import React from 'react';
 import './Login.css'; 
+import { Link, link } from 'react-router-dom'
 
 export default function LoginStructure() {
   return (
     <div className='loginContainer'>
       <div className="login">
         <h2 className="titleLogin">INICIA SESION</h2>
-        <h3 className="description">¿No tienes una cuenta? <a href="#" className="registerLink">Unete Ahora</a></h3>
+        <h3 className="description">¿No tienes una cuenta? <Link to="/register" className="registerLink">Unete Ahora</Link></h3>
 
         <div className="groupContainer">
         <div className="inputGroup">

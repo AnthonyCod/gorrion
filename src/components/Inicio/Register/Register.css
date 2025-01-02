@@ -1,0 +1,96 @@
+/* Register.css */
+.RegisterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Register {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .titleRegister {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  
+  .descriptionRegister {
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+  }
+  
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .registerLink:hover {
+    text-decoration: underline;
+  }
+  
+  .groupContainerRegister {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 50px;
+    margin-bottom: 20px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 20px;
+  }
+  
+  .inputGroup input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .termsContainer {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .termsContainer input {
+    margin-right: 10px;
+  }
+  
+  #documentType {
+    height: 35px;
+    width: 200px;
+    color: gray;
+  }
+
+  .registerButton {
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #008139;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+  }
+
+  .registerButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  

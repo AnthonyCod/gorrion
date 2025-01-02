@@ -1,26 +1,48 @@
 // src/components/Maps/Map.js
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { GoogleMap, useLoadScript } from '@react-google-maps/api';
 
+// Define 'libraries' como una constante fuera del componente
+const libraries = ['places'];
+
 const Map = () => {
-    const apiKey = 'AIzaSyDY_ALUGklspUyDjqENcP8tpH1PZbaeFOY'; // Asegúrate de reemplazar con tu clave API
+    const apiKey = 'AIzaSyDY_ALUGklspUyDjqENcP8tpH1PZbaeFOY'; // Asegúrate de reemplazar con tu clave API real
     const { isLoaded, loadError } = useLoadScript({
         googleMapsApiKey: apiKey,
-        libraries: ['places'],
+        libraries: libraries,
+        version: 'beta',
     });
 
-    if (loadError) return <div>Error loading maps</div>;
-    if (!isLoaded) return <div>Loading...</div>;
+    const mapRef = useRef();
+
+    useEffect(() => {
+        if (isLoaded && mapRef.current) {
+            const map = mapRef.current;
+    
+            // Marcador estándar
+            const firstMarker = new window.google.maps.Marker({
+                map: map,
+                position: { lat: -12.0464, lng: -77.0428 },
+            });
+    
+            const secondMarker = new window.google.maps.Marker({
+                map: map,
+                position: { lat: -12.0453, lng: -77.0312 },
+            });
+        }
+    }, [isLoaded]);
+
+    if (loadError) return <div>Error al cargar los mapas</div>;
+    if (!isLoaded) return <div>Cargando...</div>;
 
     return (
         <GoogleMap
             mapContainerStyle={{ height: '100%', width: '100%' }}
-            center={{ lat: -12.0000, lng: -77.0428 }} // Ajusta según tus necesidades
+            center={{ lat: -12.0000, lng: -77.0428 }}
             zoom={11}
-        >
-            {/* Puedes agregar marcadores u otros componentes de mapa aquí */}
-        </GoogleMap>
+            onLoad={(map) => (mapRef.current = map)}
+        />
     );
 };
 

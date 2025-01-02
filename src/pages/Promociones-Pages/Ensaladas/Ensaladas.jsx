@@ -4,11 +4,11 @@ import Header from '../../../components/Inicio/Header/Header'
 import Footer from '../../../components/Inicio/Footer/Footer'
 import NavBar from '../../../components/Inicio/NavBar/NavBar'
 import CardExample from '../../../components/Inicio/Card/CardExample'
-import { dataBrasas } from '../../../components/Inicio/data';
+import { dataEnsaladas } from '../../../components/Inicio/data';
 
-export default function Brasas() {
+export default function Ensaladas() {
 
-  const selectedData = dataBrasas
+  const selectedData = dataEnsaladas
 
   return (
     <div>

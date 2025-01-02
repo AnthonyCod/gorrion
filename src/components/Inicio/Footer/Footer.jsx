@@ -38,8 +38,8 @@ export default function Footer() {
         </div>
         <h3>SIGUENOS EN:</h3>
         <div className="icons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i className="fa-brands fa-facebook"></i></a>
+            <a href=""><i className="fa-brands fa-instagram"></i></a>
         </div>
       </div>
     </div>

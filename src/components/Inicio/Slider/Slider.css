@@ -1,0 +1,13 @@
+/* Slider.css */
+.galleryContainer {
+    width: 100vw; /* Expande el contenedor a todo el ancho de la pantalla */
+    max-height: 00px; /* Limita la altura total del contenedor */
+    overflow: hidden; /* Esto asegura que nada fuera del contenedor se muestre */
+    margin: 0 auto;
+}
+
+.galleryContent .image-gallery-slide img {
+    height: 600px !important; /* Ajusta esta altura a la que prefieras */
+    object-fit: cover; /* Esto mantendrá la imagen recortada pero ajustada al tamaño */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+}

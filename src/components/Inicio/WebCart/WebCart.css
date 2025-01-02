@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
     gap: 10px; /* Espacio entre los elementos de la cuadrícula */
-    width: 85%;
-    margin: auto;
+
     padding-bottom: 30px;
+    width: 90%;
+    margin: auto;
   }
 
   .titleCart{

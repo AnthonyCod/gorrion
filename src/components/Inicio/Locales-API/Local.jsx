@@ -8,7 +8,7 @@ export default function local() {
     return (
         <div className="info-section">
             <h3>{title}</h3>
-            {subtitle && <h3>{subtitle}</h3>}
+            {subtitle && <h3 className='subtitle'>{subtitle}</h3>}
             {button && <button>{button}</button>}
             {text && <p>{text}</p>}
         </div>
@@ -16,8 +16,13 @@ export default function local() {
 
   return (
     <div className='container'>
-        <div className="info-column">
-        <h2>NUESTROS LOCALES</h2>
+      <div className='texto'>
+        <h2>Nuestros Locales</h2>
+        <p>Cuéntanos donde estás para que podamos presentarte el menú y las ofertas disponibles en la
+        tienda más cercana. Incluye la dirección para entre a delivery</p>
+      </div>
+        <div 
+        className="info-column">
         <InfoSection
           title="San Martin de Porres"
           subtitle="Av. Perú 2272"

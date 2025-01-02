@@ -5,6 +5,11 @@
     text-align: center;
   }
   
+  .linkOverlay {
+    text-decoration: none;
+    color: black;
+  }
+
   .grid-item-image {
     width: 100%; /* Ajusta la imagen al contenedor */
     height: auto; /* Mantiene la proporción de la imagen */

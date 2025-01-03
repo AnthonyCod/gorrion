@@ -1,16 +1,38 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
-    gap: 10px; /* Espacio entre los elementos de la cuadrícula */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+  gap: 10px; /* Espacio entre los elementos de la cuadrícula */
+  padding-bottom: 30px;
+  width: 70%;
+  margin: auto;
+}
 
-    padding-bottom: 30px;
-    width: 70%;
-    margin: auto;
+.titleCart {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* Ajustes para pantallas medianas (tablets, entre 768px y 1024px) */
+@media (max-width: 1000px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+      width: 80%;
   }
 
-  .titleCart{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 800;
+  .titleCart {
+      font-size: 2.5rem;
   }
-  
+}
+
+/* Ajustes para pantallas pequeñas (smartphones, menos de 768px) */
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr; /* Una columna */
+      width: 90%;
+  }
+
+  .titleCart {
+      font-size: 2rem;
+  }
+}

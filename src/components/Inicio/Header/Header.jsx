@@ -10,8 +10,7 @@ export default function Header() {
     const links = [
         { id: 1, text: 'INICIO', href: '/' },
         { id: 2, text: 'PROMOCIONES', href: '/promociones/promociones' },
-        { id: 3, text: 'LOCALES', href: '/locales' },
-        { id: 4, text: 'NOSOTROS', href: '/nosotros' }
+        { id: 3, text: 'LOCALES', href: '/locales' }
     ];
 
     const [isOpen, setIsOpen] = useState(false);
@@ -120,7 +119,7 @@ export default function Header() {
                                     <h3 className="card-title">{item.name}</h3>
                                     <div className="column">
                                         <h4 className="description">{item.description}</h4>
-                                        <h4 className="price">${item.price}</h4>
+                                        <h4 className="price">{item.price}</h4>
                                     </div>
                                 </div>
                             ))}

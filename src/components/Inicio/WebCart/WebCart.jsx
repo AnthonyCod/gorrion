@@ -4,9 +4,9 @@ import Items from './Items';
 import inka from '../../../img/inka.png';
 import pollo from '../../../img/pollo.jpg';
 import grill from '../../../img/grill.jpg';
-import parrilla from '../../../img/parrilla.jpg';
-import piqueos from '../../../img/piqueos.jpg';
-import ensalada from '../../../img/ensalada.jpg';
+import parrilla1 from '../../../img/parrilla1.jpg';
+import piqueos1 from '../../../img/piqueos1.jpg';
+import ensalada1 from '../../../img/ensalada1.jpg';
 
 export default function WebCart() {
   return (
@@ -30,21 +30,21 @@ export default function WebCart() {
 
         <Items
         id='3'
-        image={parrilla}
+        image={parrilla1}
         title="Parrilla"
         link="promociones/parrillas"
         />    
 
         <Items
         id='4'
-        image={piqueos}
+        image={piqueos1}
         title="Piqueos"
         link="promociones/piqueos"
         />
 
         <Items
         id='5'
-        image={ensalada}
+        image={ensalada1}
         title="Ensaladas"
         link="promociones/ensaladas"
         />

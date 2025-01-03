@@ -3,7 +3,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px;
+    padding: 4px;
     background-color: #ffffff;
     height: fit-content;
     position: sticky;
@@ -155,7 +155,7 @@ header {
     } 
 
     .list {
-        margin-left: -60px;
+        margin-left: -50px;
         padding: 0;
     }
 
@@ -189,6 +189,15 @@ header {
         display: block;
         justify-content: space-between;
     }
+
+    .cta button {
+        display: none;
+    }
+
+    .counterCart {
+        display: none;
+    }
+
 }
 
 /*MENU HAMBURGUESA*/

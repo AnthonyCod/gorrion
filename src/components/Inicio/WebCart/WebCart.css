@@ -4,14 +4,13 @@
     gap: 10px; /* Espacio entre los elementos de la cuadrícula */
 
     padding-bottom: 30px;
-    width: 90%;
+    width: 70%;
     margin: auto;
   }
 
   .titleCart{
     text-align: center;
-    padding-top: 70px;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 800;
   }
   

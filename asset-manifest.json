@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/gorrion/static/css/main.5317d4ce.css",
-    "main.js": "/gorrion/static/js/main.70ec76fc.js",
+    "main.css": "/gorrion/static/css/main.1dafcd59.css",
+    "main.js": "/gorrion/static/js/main.c842976f.js",
+    "static/media/brasas1.jpg": "/gorrion/static/media/brasas1.076d671fbab4722887d5.jpg",
     "static/media/logo.png": "/gorrion/static/media/logo.00b8ee05e1e961b5f96d.png",
     "static/media/fa-solid-900.ttf": "/gorrion/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/gorrion.jpg": "/gorrion/static/media/gorrion.f838cae4b063f9d46e5f.jpg",
@@ -9,14 +10,18 @@
     "static/media/fa-brands-400.ttf": "/gorrion/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/logobn.png": "/gorrion/static/media/logobn.771271229f47d992562e.png",
     "static/media/fa-solid-900.woff2": "/gorrion/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/parrilla.jpg": "/gorrion/static/media/parrilla.499f4ff6173682e10121.jpg",
     "static/media/fa-brands-400.woff2": "/gorrion/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/piqueos.jpg": "/gorrion/static/media/piqueos.2c8f3137e35abe986ec5.jpg",
+    "static/media/ensalada.jpg": "/gorrion/static/media/ensalada.0f972052ce305dbe40de.jpg",
     "static/media/inka.png": "/gorrion/static/media/inka.cd1cb2e25031b3160046.png",
-    "static/media/parrilla.jpg": "/gorrion/static/media/parrilla.71cb633d4dd1b5dcd6d9.jpg",
-    "static/media/piqueos.jpg": "/gorrion/static/media/piqueos.ca9180e0d1aba2ac2444.jpg",
+    "static/media/parrilla1.jpg": "/gorrion/static/media/parrilla1.71cb633d4dd1b5dcd6d9.jpg",
+    "static/media/bebida.jpg": "/gorrion/static/media/bebida.88caa8b13dc381936562.jpg",
+    "static/media/piqueos1.jpg": "/gorrion/static/media/piqueos1.ca9180e0d1aba2ac2444.jpg",
     "static/media/fa-regular-400.ttf": "/gorrion/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/pollo.jpg": "/gorrion/static/media/pollo.4bb04ee1cee785ab52bd.jpg",
     "static/media/grill.jpg": "/gorrion/static/media/grill.8b5b3d7fe63f53be5aad.jpg",
-    "static/media/ensalada.jpg": "/gorrion/static/media/ensalada.fdb67f3fbcad34099a27.jpg",
+    "static/media/ensalada1.jpg": "/gorrion/static/media/ensalada1.fdb67f3fbcad34099a27.jpg",
     "static/media/fa-regular-400.woff2": "/gorrion/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/gorrion/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/gorrion/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
@@ -31,11 +36,11 @@
     "static/media/visa.svg": "/gorrion/static/media/visa.535b8100bbe1f245901c2ec73d2811da.svg",
     "static/media/promocionesIcon.svg": "/gorrion/static/media/promocionesIcon.34a04bc3a6c378ee0e741542716d07c0.svg",
     "index.html": "/gorrion/index.html",
-    "main.5317d4ce.css.map": "/gorrion/static/css/main.5317d4ce.css.map",
-    "main.70ec76fc.js.map": "/gorrion/static/js/main.70ec76fc.js.map"
+    "main.1dafcd59.css.map": "/gorrion/static/css/main.1dafcd59.css.map",
+    "main.c842976f.js.map": "/gorrion/static/js/main.c842976f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5317d4ce.css",
-    "static/js/main.70ec76fc.js"
+    "static/css/main.1dafcd59.css",
+    "static/js/main.c842976f.js"
   ]
 }

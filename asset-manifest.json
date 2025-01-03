@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gorrion/static/css/main.1dafcd59.css",
+    "main.css": "/gorrion/static/css/main.df76a3e5.css",
     "main.js": "/gorrion/static/js/main.c842976f.js",
     "static/media/brasas1.jpg": "/gorrion/static/media/brasas1.076d671fbab4722887d5.jpg",
     "static/media/logo.png": "/gorrion/static/media/logo.00b8ee05e1e961b5f96d.png",
@@ -36,11 +36,11 @@
     "static/media/visa.svg": "/gorrion/static/media/visa.535b8100bbe1f245901c2ec73d2811da.svg",
     "static/media/promocionesIcon.svg": "/gorrion/static/media/promocionesIcon.34a04bc3a6c378ee0e741542716d07c0.svg",
     "index.html": "/gorrion/index.html",
-    "main.1dafcd59.css.map": "/gorrion/static/css/main.1dafcd59.css.map",
+    "main.df76a3e5.css.map": "/gorrion/static/css/main.df76a3e5.css.map",
     "main.c842976f.js.map": "/gorrion/static/js/main.c842976f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dafcd59.css",
+    "static/css/main.df76a3e5.css",
     "static/js/main.c842976f.js"
   ]
 }
